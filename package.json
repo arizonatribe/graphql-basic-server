@@ -1,0 +1,30 @@
+{
+  "name": "graphql-basic-server",
+  "version": "1.0.0",
+  "description": "A dry-run attempt to create a working GraphQL server using Apollo, based on their tutorial project and some older code examples demo'd at SFNode Meetup in Feb 2017",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graphql",
+    "apollo",
+    "expressjs",
+    "nodejs"
+  ],
+  "author": "",
+  "contributors": [
+    "David Nunez <arizonatribe@gmail.com>"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "graphql": "^0.10.5",
+    "graphql-server-express": "^1.0.2",
+    "graphql-tools": "^1.1.0",
+    "nodemon": "^1.11.0"
+  }
+}
